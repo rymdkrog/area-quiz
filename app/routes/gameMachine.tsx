@@ -37,8 +37,10 @@ export const gameMachine = setup({
     playIncorrectSound: () => {},
     playCloseSound: () => {},
     track: () => {
-      // @ts-expect-error - fathom is probably defined
-      fathom?.trackEvent('game')
+      if ('fathom' in window) {
+        // @ts-expect-error - fathom is probably defined
+        fathom?.trackEvent('game')
+      }
     },
   },
 }).createMachine({

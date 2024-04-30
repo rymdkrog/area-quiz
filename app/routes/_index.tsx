@@ -12,7 +12,13 @@ import { usePlayTapSound } from '~/use-play-tap-sound'
 import { cn } from '~/utils'
 
 export const meta: MetaFunction = () => {
-  return [{ title: 'Guess the area' }, { name: 'description', content: 'A quiz about areas' }]
+  return [
+    { title: 'Guess the area' },
+    { name: 'og:title', content: 'Guess the area' },
+    { name: 'description', content: 'A quiz about areas' },
+    { name: 'og:description', content: 'A quiz about areas' },
+    { name: 'og:image', content: 'https://areas.rymdkrog.world/og.png' },
+  ]
 }
 
 const MotionLink = motion(Link)
