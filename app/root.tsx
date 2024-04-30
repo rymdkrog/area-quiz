@@ -121,5 +121,11 @@ export default function App() {
 }
 
 export function HydrateFallback() {
-  return <p>Loading...</p>
+  return (
+    <div className="min-h-screen flex items-center justify-center font-bold">
+      <div className="p-10 border-black aspect-square border-[20px] w-[300px] flex items-center justify-center text-4xl">
+        LOADING
+      </div>
+    </div>
+  )
 }
