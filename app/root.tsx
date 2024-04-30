@@ -51,7 +51,7 @@ export default function App() {
       </main>
       <footer className="w-full bg-contain mt-auto pt-24 flex flex-col items-center">
         <div className="flex gap-3 items-center mb-4">
-          <a href="https://github.com">
+          <a href="https://github.com/rymdkrog/area-quiz">
             <svg
               viewBox="0 0 24 24"
               aria-hidden="true"
