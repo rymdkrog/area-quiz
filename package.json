@@ -15,6 +15,7 @@
     "@remix-run/node": "^2.9.1",
     "@remix-run/react": "^2.9.1",
     "@xstate/react": "^4.1.1",
+    "canvas-confetti": "^1.9.3",
     "clsx": "^2.1.1",
     "framer-motion": "^11.1.7",
     "howler": "2.1.2",
