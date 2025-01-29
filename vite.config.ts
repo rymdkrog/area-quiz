@@ -9,4 +9,9 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
+  build: {
+    rollupOptions: {
+      external: ['canvas-confetti'],
+    },
+  },
 })
